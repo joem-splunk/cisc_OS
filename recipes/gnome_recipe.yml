@@ -41,7 +41,7 @@ modules:
     files:
       - source: /files/system/usr/test.png
         destination: /usr/share/fedora-gdm-logo.png
-      - source: system/usr/test.png
+      - source: /files/system/usr/test.png
         destination: /usr/share/fedora-logo.png
       - source: /files/system/usr/test.png
         destination: /usr/share/fedora_logo_med.png
