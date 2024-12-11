@@ -39,19 +39,19 @@ modules:
 
   - type: files
     files:
-      - source: system/usr/test.png
+      - source: /files/system/usr/test.png
         destination: /usr/share/fedora-gdm-logo.png
       - source: system/usr/test.png
         destination: /usr/share/fedora-logo.png
-      - source: system/usr/test.png
+      - source: /files/system/usr/test.png
         destination: /usr/share/fedora_logo_med.png
-      - source: system/usr/test.png
+      - source: /files/system/usr/test.png
         destination: /usr/share/fedora-small.png
-      - source: system/usr/test.png
+      - source: /files/system/usr/test.png
         destination: /usr/share/fedora_white_logo.png
-      - source: system/usr/test.png
+      - source: /files/system/usr/test.png
         destination: /usr/share/fedora_whitelogo.png
-      - source: system/usr/test.png
+      - source: /files/system/usr/test.png
         destination: /usr/share/fedora_whitelogo_med.png
         
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
