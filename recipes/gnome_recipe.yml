@@ -18,13 +18,13 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
         
   - type: rpm-ostree
-    repos:
+  #  repos:
     install:
       - duo_unix
       - puppet
       - openconnect
       - salt-minion
-    remove:
+  #  remove:
     
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
