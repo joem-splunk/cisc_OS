@@ -53,6 +53,8 @@ modules:
         destination: /usr/share/pixmaps/fedora_whitelogo.png
       - source: system/usr/testsmall.png
         destination: /usr/share/pixmaps/fedora_whitelogo_med.png
+      - source: system/usr/cisco-icon.svg
+        destination: /usr/share/gnome-shell/extensions/logomenu@aryan_k/Resources/cisco-icon.svg
         
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
